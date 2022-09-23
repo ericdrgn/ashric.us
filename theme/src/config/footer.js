@@ -30,7 +30,7 @@ export const footerLists = [
 		title: 'The Dragons',
 		items: [
 			{
-				title: 'About',
+				title: 'About Us',
 				slug: '/about',
 			},
 			{
