@@ -12,7 +12,7 @@ const selectOptions2 = [
 <form name="Contact Form" method="POST" action="/events" data-netlify="true">
   <FormInput type="text" label="Name" name="Name" placeholder="Some Dragon" />
   <FormInput type="email" label="Email" name="Email" placeholder="dragon@example.com" />
-  <FormSelect label="RSVP for which event?" options="HouseWarming","test" />
+  <FormSelect label="RSVP for which event?" options={housewarming} />
   <FormSelect label="How many are attending?" options={selectOptions2} />
     <p>
     <label>Your Role: <select name="role[]" multiple>
