@@ -9,6 +9,11 @@ export const footerSocials = [
     url: 'https://video.ashric.us',
     icon: "mdi:youtube",
   },
+  {
+    name: 'Github',
+    url: 'https://github.com/ericdrgn/ashric.us',
+    icon: "mdi:github",
+  },
 ]
 
 export const footerLists = [
