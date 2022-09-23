@@ -18,6 +18,12 @@ const selectOptions2 = [
   <FormInput type="email" label="Email" name="Email" placeholder="dragon@example.com" />
   <FormSelect label="RSVP for which event?" options={selectOptions} />
   <FormSelect label="How many are attending?" options={selectOptions2} />
+    <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
   <FormTextarea label="Message" name="Message" placeholder="Leave details for a dragon here..." />
   <Button>Submit</Button>
 </form>
