@@ -95,7 +95,7 @@
 [data-theme='earth'] {
 	/* Theme Colors */
 	--theme-primary: #4F5E80;
-	--theme-primary-hover: #4F5E80;
+	--theme-primary-hover: #606e8c;
 	--theme-on-primary: hsl(0, 0%, 100%);
 
 	--theme-bg: #1c1c1c;
