@@ -1,25 +1,13 @@
 ---
 import { Button, FormInput, FormSelect, FormTextarea } from '@littlesticks/odyssey-theme-components';
 
-const selectOptions2 = [
-  "1",
-  "2",
-  "2+",
-]
 
 ---
 
 <form name="Contact Form" method="POST" action="/events" data-netlify="true">
   <FormInput type="text" label="Name" name="Name" placeholder="Some Dragon" />
   <FormInput type="email" label="Email" name="Email" placeholder="dragon@example.com" />
-  <FormSelect label="RSVP for which event?" options="1" />
-  <FormSelect label="How many are attending?" options={selectOptions2} />
-    <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
+  <FormInput type="text" label="How many are attending?" name="Attendees" placeholder="1, 2, etc" />
   <FormTextarea label="Message" name="Message" placeholder="Leave details for a dragon here..." />
   <Button>Submit</Button>
 </form>
