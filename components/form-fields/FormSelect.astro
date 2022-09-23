@@ -24,9 +24,7 @@ const { label, name, options, required} = Astro.props;
   {label && <label for={name}>{label}</label>}
   <select name={name} required={required}>
     <option disabled selected value="">==SELECT AN OPTION==</option>
-    {options?.map((option) => (
-          <option value={option}>{option}</option>
-        ))}
+          <option value="1"></option>
   </select>
 </div>
 
