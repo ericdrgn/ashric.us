@@ -28,8 +28,8 @@ const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 );
 
 const seo = {
-	title: 'Games | The Dragons',
-	description: 'Game Rules page by the Dragons',
+	title: 'Events | The Dragons',
+	description: 'Events page for the Dragons',
 };
 ---
 
@@ -51,7 +51,7 @@ const seo = {
 				</div>
 		</TextCardSection>
 		<section class="blog-posts-list__section">
-			<h2>Rules</h2>
+			<h2>Events</h2>
 			<BlogPostsList posts={posts} />
 		</section>
 	</Container>
